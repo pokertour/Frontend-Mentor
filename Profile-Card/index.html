@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./assets/css/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans:400,700">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class=" bg-darkcyan font-kumbh text-darkgray ">
+
+  <div class="container flex h-screen mx-auto justify-center items-center ">
+    <div class="grid grid-cols-1 justify-center">
+      <div class="card bg-white rounded-2xl drop-shadow-2xl">
+        <div class="relative card-header content-center">
+          <div class="card-header-bg">
+            <img src="./assets/images/bg-pattern-card.svg" class="rounded-t-2xl" alt="bg-header">
+          </div>
+          <div class="card-header-user">
+            <img src="./assets/images/image-victor.jpg"
+              class="absolute rounded-full border-white border-4 left-[120px] top-24" alt="user">
+          </div>
+        </div>
+        <div class="card-content mt-20 text-center">
+          <span class="font-bold text-verydarkdesatblue text-custom">Victor Crest</span>
+          <span class="text-custom">26</span><br>
+          <span>London</span>
+        </div>
+        <div class="card-footer border-t-2 mt-4">
+          <div class="grid grid-cols-3 text-center mt-4 mb-4">
+            <div>
+              <span class="font-bold text-verydarkdesatblue text-custom">80K</span><br>
+              <span class="text-xs tracking-wide">Followers</span>
+            </div>
+            <div>
+              <span class="font-bold text-verydarkdesatblue text-custom">803K</span><br>
+              <span class="text-xs tracking-wide">Likes</span>
+            </div>
+            <div>
+              <span class="font-bold text-verydarkdesatblue text-custom">1.4K</span><br>
+              <span class="text-xs tracking-wide">Photos</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Pokertour</a>.
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
