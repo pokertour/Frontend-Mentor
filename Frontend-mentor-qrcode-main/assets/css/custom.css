@@ -1,0 +1,54 @@
+body {
+    font-family: 'Outfit';
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+.card-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.card:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-image {
+    display: inline-flex;
+    background-image: url("../../images/image-qr-code.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.card-title {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
