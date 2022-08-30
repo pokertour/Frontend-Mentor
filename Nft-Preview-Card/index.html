@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,400,600">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="font-outfit text-custom bg-very-dark-blue-bg text-primary-blue">
+  <div class="container flex h-screen mx-auto justify-center items-center">
+    <div class="grid w-80 grid-cols-1 justify-center mx-5">
+      <div class="card box-border p-4 rounded-2xl bg-very-dark-blue-card-bg">
+        <div class="card-header group">
+          <div class="bg-primary-cyan relative rounded-lg bg-opacity-0 group-hover:bg-opacity-70">
+            <img src="./assets/images/image-equilibrium.jpg" alt="logo" class="rounded-lg hover:cursor-pointer hover:opacity-50">
+            <img src="./assets/images/icon-view.svg" alt="eye" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 hover:cursor-pointer group-hover:opacity-100">
+          </div>
+        </div>
+        <div class="card-content">
+          <span class="block text-custom-white font-semibold text-2xl mt-4 mb-2 hover:cursor-pointer hover:text-primary-cyan ">Equilibrium #3429</span>
+
+          <span class="block font-light">Our Equilibrium collection promotes balance and calm.</span>
+
+          <div class="flex justify-between my-3">
+            <div><img src="./assets/images/icon-ethereum.svg" alt="logo-eth" class="inline"><span class="align-middle text-primary-cyan text-base font-semibold"> 0.041 ETH</span></div>
+            <div><img src="./assets/images/icon-clock.svg" alt="Clock" class="inline"><span class="align-middle text-base"> 3 days left</span></div>
+          </div>
+        </div>
+        <hr class="border-primary-blue/50">
+        <div class="card-footer mt-3">
+          <img src="./assets/images/image-avatar.png" alt="avatar" class="inline rounded-full border-2 w-9"><span class=" align-middle"> Creation of <span class="text-custom-white hover:cursor-pointer hover:text-primary-cyan">Jules Wyvern</span></span>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Pokertour</a>.
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  
+</body>
+
+</html>
